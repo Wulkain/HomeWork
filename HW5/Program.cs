@@ -2,12 +2,12 @@
 [345, 897, 568, 234] -> 2 */
 int[] Massive ()
 {
-    Console.Write("Введите размер массива: ");
-    int numElementM = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Введите размер массива для задачи №34: ");
+    int numElemM = Convert.ToInt32(Console.ReadLine());
 
-    int[] array = new int[numElementM];
+    int[] array = new int[numElemM];
 
-    for (int i = 0; i < numElementM; i++)
+    for (int i = 0; i < numElemM; i++)
     {
         array[i] = new Random().Next(100, 1000);
     }
@@ -33,12 +33,12 @@ System.Console.WriteLine($"В массиве: {String.Join(",", mass)} кол-в
 
 int[] Massive1 ()
 {
-    Console.Write("Введите размер массива: ");
-    int numElementM = Convert.ToInt32(Console.ReadLine());
+    Console.Write("Введите размер массива для задачи 36 или 37: ");
+    int numElemM = Convert.ToInt32(Console.ReadLine());
 
-    int[] array = new int[numElementM];
+    int[] array = new int[numElemM];
 
-    for (int i = 0; i < numElementM; i++)
+    for (int i = 0; i < numElemM; i++)
     {
         array[i] = new Random().Next(-100, 101);
     }
@@ -74,3 +74,41 @@ int[] ProdOfNum (int[] arr)
 }
 int[] massProd = Massive1 ();
 System.Console.WriteLine($"В массиве: {String.Join(",", massProd)} находим произведение пар чисел и записываем в новый массив: {String.Join(",", ProdOfNum(massProd))}");
+
+
+/* Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+[3 7 22 2 78] -> 76 */
+
+double[] MyArray() 
+{
+Console.Write("Введите размер массива для задачи №38: ");
+
+int sizeArray = Convert.ToInt32(Console.ReadLine());
+ 
+    double[] array = new double[sizeArray]; 
+ 
+    for (int i = 0; i < sizeArray; i++) array[i] = new Random().Next(0, 101); 
+ 
+    Console.WriteLine($"Массив чисел:\n{String.Join(", ", array)}"); 
+ 
+    return array; 
+}
+
+double DiffMinMax(double[] array4) 
+{ 
+    double minElem = array4[0]; 
+    double maxElem = array4[0]; 
+             
+    for (int i = 1; i < array4.Length; i++) 
+    { 
+        if (array4[i] < minElem) minElem = array4[i]; 
+        if (array4[i] > maxElem) maxElem = array4[i]; 
+    } 
+ 
+    Console.WriteLine($"Минимальный элемент массива: {minElem}\n Максимальный элемент массива: {maxElem}"); 
+ 
+    return maxElem - minElem; 
+}
+
+double[] diff = MyArray ();
+System.Console.WriteLine($"Разница между максимальным и минимальным элементами массива равна: {(DiffMinMax(diff))}\n");
