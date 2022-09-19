@@ -1,0 +1,15 @@
+C:\Users\Домашний\Desktop\HW\Hw9\obj\Debug\net6.0\Hw9.csproj.AssemblyReference.cache
+C:\Users\Домашний\Desktop\HW\Hw9\obj\Debug\net6.0\Hw9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Домашний\Desktop\HW\Hw9\obj\Debug\net6.0\Hw9.AssemblyInfoInputs.cache
+C:\Users\Домашний\Desktop\HW\Hw9\obj\Debug\net6.0\Hw9.AssemblyInfo.cs
+C:\Users\Домашний\Desktop\HW\Hw9\obj\Debug\net6.0\Hw9.csproj.CoreCompileInputs.cache
+C:\Users\Домашний\Desktop\HW\Hw9\bin\Debug\net6.0\Hw9.exe
+C:\Users\Домашний\Desktop\HW\Hw9\bin\Debug\net6.0\Hw9.deps.json
+C:\Users\Домашний\Desktop\HW\Hw9\bin\Debug\net6.0\Hw9.runtimeconfig.json
+C:\Users\Домашний\Desktop\HW\Hw9\bin\Debug\net6.0\Hw9.dll
+C:\Users\Домашний\Desktop\HW\Hw9\bin\Debug\net6.0\Hw9.pdb
+C:\Users\Домашний\Desktop\HW\Hw9\obj\Debug\net6.0\Hw9.dll
+C:\Users\Домашний\Desktop\HW\Hw9\obj\Debug\net6.0\refint\Hw9.dll
+C:\Users\Домашний\Desktop\HW\Hw9\obj\Debug\net6.0\Hw9.pdb
+C:\Users\Домашний\Desktop\HW\Hw9\obj\Debug\net6.0\Hw9.genruntimeconfig.cache
+C:\Users\Домашний\Desktop\HW\Hw9\obj\Debug\net6.0\ref\Hw9.dll
